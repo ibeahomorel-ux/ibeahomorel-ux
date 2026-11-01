@@ -1,55 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
-  <title id="t">IBEAHO MOREL CALLEB — Full-Stack &amp; AI Automation Developer</title>
-  <desc id="d">Bannière sombre avec le nom, le titre et un schéma API, workflow, IA.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Ibeaho Morel Calleb — Full-Stack &amp; AI Automation Developer</title>
+  <desc id="description">Présentation sur fond bleu-gris clair, avec un schéma de catalogue, de recherche et d'accès aux PDF inspiré du projet Congo Libs.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070B14"/>
-      <stop offset="1" stop-color="#0E1A33"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#22D3EE"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#1B2740" stroke-width="1" opacity="0.55"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#CAD5E0" stroke-width="1" opacity=".42"/>
     </pattern>
-    <style>
-      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-      .flow{stroke-dasharray:6 8;animation:dash 1.6s linear infinite}
-      @keyframes dash{to{stroke-dashoffset:-28}}
-      .cursor{animation:blink 1.2s steps(1) infinite}
-      @keyframes blink{50%{opacity:0}}
-      .pulse{animation:pulse 3.2s ease-in-out infinite}
-      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
-      @media (prefers-reduced-motion:reduce){.flow,.cursor,.pulse{animation:none}}
-    </style>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#285DD8"/>
+      <stop offset="1" stop-color="#168B8B"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="#F1F5F8"/>
   <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect x="0" y="0" width="6" height="320" fill="url(#accent)"/>
+  <rect width="7" height="320" fill="url(#accent)"/>
 
-  <!-- Texte -->
-  <text x="60" y="118" class="sans" font-size="44" font-weight="800" fill="#F1F5F9" letter-spacing="0.5">IBEAHO MOREL CALLEB</text>
-  <text x="60" y="162" class="sans" font-size="24" font-weight="600" fill="#22D3EE">Full-Stack &amp; AI Automation Developer</text>
-  <text x="60" y="202" class="sans" font-size="16" fill="#94A3B8">Applications web · API REST · Automatisation de workflows</text>
-  <rect x="60" y="226" width="120" height="3" rx="1.5" fill="url(#accent)"/>
-  <text x="60" y="268" class="mono" font-size="15" fill="#64748B">$ python manage.py runserver<tspan class="cursor" fill="#22D3EE"> ▍</tspan></text>
+  <text x="60" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" font-weight="750" fill="#16263D">Ibeaho Morel Calleb</text>
+  <text x="60" y="151" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="23" font-weight="650" fill="#285DD8">Full-Stack &amp; AI Automation Developer</text>
+  <text x="60" y="193" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" fill="#52667D">Applications web, API et automatisation de services.</text>
+  <rect x="60" y="218" width="116" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="60" y="263" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#52667D">Des outils reliés à des usages concrets.</text>
 
-  <!-- Schéma API → Workflow → IA -->
-  <g class="mono" font-size="14" text-anchor="middle">
-    <line class="flow" x1="820" y1="160" x2="860" y2="160" stroke="#38BDF8" stroke-width="2"/>
-    <line class="flow" x1="980" y1="160" x2="1020" y2="160" stroke="#38BDF8" stroke-width="2"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <path d="M821 157h39M981 157h39" stroke="#168B8B" stroke-width="2"/>
+    <circle cx="840" cy="157" r="3" fill="#168B8B"/>
+    <circle cx="1000" cy="157" r="3" fill="#168B8B"/>
 
-    <rect x="700" y="130" width="120" height="60" rx="10" fill="#111827" stroke="#2563EB" stroke-width="2"/>
-    <text x="760" y="166" fill="#E2E8F0">REST API</text>
+    <rect x="700" y="124" width="120" height="66" rx="8" fill="#FFFFFF" stroke="#CAD5E0" stroke-width="2"/>
+    <path d="M723 143h22v28h-22zM748 143h22v28h-22z" fill="none" stroke="#285DD8" stroke-width="2"/>
+    <path d="M728 150h12M753 150h12M728 156h12M753 156h12" stroke="#52667D" stroke-width="1.5"/>
+    <text x="760" y="214" text-anchor="middle" font-size="14" fill="#16263D">Catalogue</text>
 
-    <rect x="860" y="130" width="120" height="60" rx="10" fill="#111827" stroke="#38BDF8" stroke-width="2" class="pulse"/>
-    <text x="920" y="166" fill="#E2E8F0">Workflow</text>
+    <rect x="860" y="124" width="120" height="66" rx="8" fill="#FFFFFF" stroke="#CAD5E0" stroke-width="2"/>
+    <circle cx="916" cy="153" r="13" fill="none" stroke="#285DD8" stroke-width="2.5"/>
+    <path d="m926 163 10 10" stroke="#168B8B" stroke-width="3" stroke-linecap="round"/>
+    <text x="920" y="214" text-anchor="middle" font-size="14" fill="#16263D">Recherche</text>
 
-    <rect x="1020" y="130" width="120" height="60" rx="10" fill="#111827" stroke="#22D3EE" stroke-width="2"/>
-    <text x="1080" y="166" fill="#E2E8F0">IA / LLM</text>
+    <rect x="1020" y="124" width="120" height="66" rx="8" fill="#FFFFFF" stroke="#CAD5E0" stroke-width="2"/>
+    <path d="M1064 140h23l10 10v28h-33zM1087 140v11h10M1070 159h20M1070 165h20" fill="none" stroke="#285DD8" stroke-width="2" stroke-linejoin="round"/>
+    <text x="1080" y="214" text-anchor="middle" font-size="14" fill="#16263D">Accès PDF</text>
   </g>
-  <text x="920" y="228" class="mono" font-size="13" text-anchor="middle" fill="#64748B">Django · n8n · Make · OpenAI API</text>
 </svg>
